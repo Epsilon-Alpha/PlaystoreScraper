@@ -1,5 +1,5 @@
 # PlaystoreScraper
-Gathers the list of unique email IDs and developer names, whose apps have had less than a threshold value of downloads. The progress is shown in realtime and also written to **emails.txt**
+Gathers the list of unique email IDs and developer names, whose apps have had less than a threshold value of downloads. The progress is shown in realtime and also written to **emails.txt**. The links once visited are maintained in a file called _visited.txt_ so that the same link isn't visited again, and the code isn't stuck in a loop, giving duplicates.
 
 # Pre-requisites
 1. [Geckodriver](https://github.com/mozilla/geckodriver/releases) (in PATH environment variable)
